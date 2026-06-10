@@ -27,7 +27,7 @@ go build -o take-over.exe .
 | `-u`, `--url` | Target URL/host to scan. |
 | `-l`, `--list` | Path to file containing a list of target URLs/hosts to scan (one per line). |
 | `-c`, `--concurrency` | Maximum number of targets to be executed in parallel (default 10). |
-| `-o`, `--output` | Output file to write found issues/vulnerabilities. |
+| `-o`, `--output` | Output file to write found vulnerabilities. |
 | `-v`, `--verbose` | Show both vulnerable and non-vulnerable subdomains. |
 | `-h`, `--help` | Show help. |
 
